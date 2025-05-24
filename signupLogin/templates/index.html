@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Farmasphere News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header class="border-b border-gray-200">
+      <nav class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between h-16">
+        <div class="font-extrabold text-black text-lg tracking-wide">FARMASPHERE</div>
+        <ul class="hidden md:flex space-x-8 text-sm text-gray-600 font-normal">
+          <li><a class="hover:text-gray-900" href="#">Home</a></li>
+          <li><a class="hover:text-gray-900" href="#">About</a></li>
+          <li><a class="hover:text-gray-900" href="#">Products</a></li>
+          <li><a class="hover:text-gray-900" href="#">How It Works</a></li>
+          <li><a class="text-green-600 border-b-2 border-green-600 pb-0.5" href="#">News</a></li>
+          <li><a class="hover:text-gray-900" href="#">Blog</a></li>
+        </ul>
+        <a class="hidden md:inline-block border border-black text-black font-semibold text-sm px-5 py-2 hover:bg-black hover:text-white transition" href="#">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative w-full">
+      <img
+        alt="Grayscale image of a tractor in a field with trees in the background"
+        class="w-full h-[320px] object-cover object-center"
+        src="https://storage.googleapis.com/a1aa/image/d7ab2f2c-278c-4449-2764-8d2aac5e1eec.jpg"
+        loading="lazy"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 sm:px-12 max-w-7xl mx-auto">
+        <h1 class="text-white font-extrabold text-4xl sm:text-5xl max-w-3xl leading-tight drop-shadow-md">
+          Latest updates
+        </h1>
+        <p class="text-white text-lg sm:text-xl max-w-2xl mt-2 drop-shadow-md">
+          Stay informed about farming innovations
+        </p>
+      </div>
+    </section>
+
+    <!-- News List Section -->
+    <section class="max-w-7xl mx-auto px-6 sm:px-12 py-16">
+      <h2 class="text-3xl font-bold mb-10">Recent News</h2>
+      <div class="grid gap-10 md:grid-cols-2">
+        <!-- News Card 1 -->
+        <article class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+          <img class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/9eedde24-739f-4c5e-05b0-6dc7d489e805.jpg" alt="News image" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">AI Technology Boosts Crop Yields</h3>
+            <p class="text-gray-500 text-sm mb-3">May 18, 2025</p>
+            <p class="text-gray-700 mb-4">New AI systems are helping farmers monitor crop health and improve productivity across rural regions.</p>
+            <a href="#" class="text-green-600 font-medium hover:underline">Read more →</a>
+          </div>
+        </article>
+
+        <!-- News Card 2 -->
+        <article class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+          <img class="w-full h-48 object-cover" src="https://storage.googleapis.com/a1aa/image/70d85a59-c46e-4b98-66e8-fff9f1a8bfc3.jpg" alt="News image" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Sustainable Irrigation Project Launched</h3>
+            <p class="text-gray-500 text-sm mb-3">May 12, 2025</p>
+            <p class="text-gray-700 mb-4">A new government-backed initiative aims to provide smart irrigation solutions to over 1 million farmers.</p>
+            <a href="#" class="text-green-600 font-medium hover:underline">Read more →</a>
+          </div>
+        </article>
+
+        <!-- Add more news cards as needed -->
+      </div>
+    </section>
+  </body>
+</html>
