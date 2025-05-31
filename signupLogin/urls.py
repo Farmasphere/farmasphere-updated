@@ -11,7 +11,9 @@ urlpatterns = [
     path('home/',home,name="home"),
     path('profile/',profile,name="profile"),
     path('user/',user,name="user"),
-    path('weather/', weather_view, name='weather'),
-    path('weather-api/<str:area>/', weather_api, name='weather-api'),
+    path('weather/',weathertest,name="weather"),
+    # path('weather/', weather_view, name='weather'),
+    # path('weather-api/<str:area>/', weather_api, name='weather-api'),
+    path('translate_text/',translate_text, name='translate_text')
 
 ]

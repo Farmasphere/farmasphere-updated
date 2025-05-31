@@ -144,3 +144,9 @@ EMAIL_HOST_PASSWORD = 'sjei qeak ychr tmvq'        # Use App Password if 2FA is 
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
+
+AZURE_TRANSLATOR_KEY = 'AOgiOzCLXqSFwlWcW4IlMqq7aVAct0CHlVpvDjcERbjeAfOyNlH0JQQJ99BEACGhslBXJ3w3AAAbACOGUydC'
+AZURE_TRANSLATOR_REGION = 'centralindia'
+AZURE_TRANSLATOR_ENDPOINT = 'https://centralindia.api.cognitive.microsofttranslator.com/'
+
+
